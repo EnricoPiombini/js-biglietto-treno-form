@@ -16,7 +16,7 @@
         <h2 class="text-center fw-bold text-white mt-3 mb-3">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
         <div class="container">
 
-            <div class="row justify-center">
+            <div class="row">
                 <div class="col-4">
                     <div class="content">
                         <h6 class="title">Nome Cognome</h6>
@@ -27,20 +27,20 @@
                 <div class="col-4">
                     <div class="content">
                         <h6 class="title">Km da percorrere</h6>
-                        <input type="text" name="numKM">
+                        <input type="text" name="numKm">
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="content">
                         <h6 class="title">Fascia d'età</h6>
-                        <select name="age">
+                        <select id="age" name="">
                             <option></option>
                             <option value="">
                                 Minorenne</option>
                             <option value="">
                                 Maggiorenne
                             </option>
-                            <option value="">Over 65</option>
+                            <option value="">Over65</option>
                         </select>
                     </div>
                 </div>
@@ -48,12 +48,73 @@
             <div class="button-part text-center mt-5">
                 <button type="button" id="submitButton">GENERA</button>
                 <button type="button" id="submitButton">ANNULLA</button>
+            </div>
+        </div>
+
+
+        <h2 class="text-center fw-bold text-white mt-3 mb-3">IL TUO BIGLIETTO</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="content">
+                        <h4>NOME PASSEGGERO</h4>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="content">
+                        <h5>Offerta</h5>
+                        <p>Biglietto Standard</p>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="content">
+                        <h5>Carrozza</h5>
+                        <p>5</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="content">
+                        <h5>Codice CP</h5>
+                        <p>92911</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="content">
+                        <h5>Costo Biglietto</h5>
+                        <p></p>
+
+
+                    </div>
+                </div>
+
 
 
 
 
             </div>
+
+
+
+
+
+
         </div>
+
+
     </main>
 
     <script src="js/main.js"></script>
